@@ -1,165 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AI Literacy Training | AI Fluency Hub – Corporate AI Education</title>
-  <meta name="description" content="AI Fluency Hub offers AI training for businesses, executives, and teams. Build AI literacy, improve adoption, and stay competitive. Book a free consultation!">
-  <meta name="keywords" content="AI literacy training, Corporate AI training, AI education for employees, AI skills for business, AI workshops for teams">
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="AI Fluency Hub offers AI training for businesses, executives, and teams. Build AI literacy, improve adoption, and stay competitive. Book a free consultation!" />
+  <meta name="keywords" content="AI literacy training, Corporate AI training, AI education for employees, AI skills for business, AI workshops for teams" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Header / Hero Section -->
-  <header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ACEDFF;">
     <div class="container">
-      <h1>AI Fluency Hub</h1>
-      <p>AI Literacy Training for Businesses</p>
-      <h2>Bridging the AI Knowledge Gap – One Business at a Time</h2>
-      <p>Empower Your Workforce with AI Fluency</p>
+      <a class="navbar-brand fw-bold" href="#">AI Fluency Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#why-ai-literacy">Why AI Literacy</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="py-5" style="background-color: #CAE5FF;">
+    <div class="container text-center">
+      <h1 class="display-4">AI Fluency Hub</h1>
+      <p class="lead">AI Literacy Training for Businesses</p>
+      <h2 class="fw-normal">Bridging the AI Knowledge Gap – One Business at a Time</h2>
+      <p class="mt-3">Empower Your Workforce with AI Fluency</p>
+      <!-- Hero Graphic Placeholder -->
+      <img src="https://via.placeholder.com/1200x400?text=Hero+Graphic" alt="Hero Graphic" class="img-fluid mt-4" />
     </div>
   </header>
 
   <!-- Main Content -->
   <main>
-    <section id="intro">
+    <!-- Intro Section -->
+    <section id="intro" class="py-5">
       <div class="container">
-        <p>
-          AI is reshaping industries, and businesses that adapt will lead the future.
-          AI Fluency Hub provides expert-led training programs that make AI accessible, practical,
-          and actionable for every employee. Whether you're a leader making strategic decisions or an
-          employee working alongside AI tools, we help you gain the knowledge and confidence to thrive in the AI era.
-        </p>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="fs-5">
+              AI is reshaping industries, and businesses that adapt will lead the future.
+              AI Fluency Hub provides expert-led training programs that make AI accessible, practical,
+              and actionable for every employee. Whether you're a leader making strategic decisions or an
+              employee working alongside AI tools, we help you gain the knowledge and confidence to thrive in the AI era.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <!-- Intro Graphic Placeholder -->
+            <img src="https://via.placeholder.com/500x300?text=Intro+Graphic" alt="Intro Graphic" class="img-fluid" />
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Why AI Literacy Matters -->
-    <section id="why-ai-literacy">
+    <section id="why-ai-literacy" class="py-5" style="background-color: #ACEDFF;">
       <div class="container">
-        <h2>Why AI Literacy Matters</h2>
-        <ul>
-          <li>🚀 Enhance Productivity: Learn how to leverage AI tools for efficiency.</li>
-          <li>🔍 Reduce Fear & Resistance: Make AI an enabler, not a threat.</li>
-          <li>📊 Make Better Decisions: Understand AI-driven insights and automation.</li>
-          <li>🌎 Stay Competitive: Keep up with industry shifts and AI adoption.</li>
-        </ul>
+        <h2 class="mb-4">Why AI Literacy Matters</h2>
+        <div class="row text-center">
+          <div class="col-md-3 mb-4">
+            <div class="card border-0">
+              <div class="card-body">
+                <h1>🚀</h1>
+                <p>Enhance Productivity: Learn how to leverage AI tools for efficiency.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card border-0">
+              <div class="card-body">
+                <h1>🔍</h1>
+                <p>Reduce Fear & Resistance: Make AI an enabler, not a threat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card border-0">
+              <div class="card-body">
+                <h1>📊</h1>
+                <p>Make Better Decisions: Understand AI-driven insights and automation.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card border-0">
+              <div class="card-body">
+                <h1>🌎</h1>
+                <p>Stay Competitive: Keep up with industry shifts and AI adoption.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Our AI Training Programs -->
-    <section id="programs">
+    <section id="programs" class="py-5">
       <div class="container">
-        <h2>Our AI Training Programs</h2>
-        <div class="program">
-          <h3>📘 AI Fundamentals for Teams</h3>
-          <ul>
-            <li>Understand AI basics: Machine Learning, NLP, and automation.</li>
-            <li>Real-world AI use cases in your industry.</li>
-            <li>Interactive sessions with Q&A.</li>
-          </ul>
-        </div>
-        <div class="program">
-          <h3>👨‍💼 AI for Business Leaders & Executives</h3>
-          <ul>
-            <li>AI strategy: How AI impacts leadership & decision-making.</li>
-            <li>Ethical AI and responsible implementation.</li>
-            <li>Case studies from top companies using AI successfully.</li>
-          </ul>
-        </div>
-        <div class="program">
-          <h3>⚡ Hands-On AI Workshops</h3>
-          <ul>
-            <li>Learn to use AI tools (ChatGPT, automation software, AI analytics).</li>
-            <li>Practical exercises to implement AI in daily tasks.</li>
-            <li>Tailored to your company's needs.</li>
-          </ul>
-        </div>
-        <div class="program">
-          <h3>🔬 Industry-Specific AI Training</h3>
-          <ul>
-            <li>Custom AI training for finance, healthcare, marketing, HR, and more.</li>
-            <li>AI risk management and compliance considerations.</li>
-          </ul>
+        <h2 class="mb-4">Our AI Training Programs</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card h-100">
+              <!-- Program Graphic Placeholder -->
+              <img src="https://via.placeholder.com/600x300?text=AI+Fundamentals+Graphic" class="card-img-top" alt="AI Fundamentals Graphic" />
+              <div class="card-body">
+                <h3 class="card-title">📘 AI Fundamentals for Teams</h3>
+                <ul>
+                  <li>Understand AI basics: Machine Learning, NLP, and automation.</li>
+                  <li>Real-world AI use cases in your industry.</li>
+                  <li>Interactive sessions with Q&A.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100">
+              <!-- Program Graphic Placeholder -->
+              <img src="https://via.placeholder.com/600x300?text=AI+For+Business+Leaders+Graphic" class="card-img-top" alt="AI for Business Leaders Graphic" />
+              <div class="card-body">
+                <h3 class="card-title">👨‍💼 AI for Business Leaders & Executives</h3>
+                <ul>
+                  <li>AI strategy: How AI impacts leadership & decision-making.</li>
+                  <li>Ethical AI and responsible implementation.</li>
+                  <li>Case studies from top companies using AI successfully.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100">
+              <!-- Program Graphic Placeholder -->
+              <img src="https://via.placeholder.com/600x300?text=Hands-On+Workshops+Graphic" class="card-img-top" alt="Hands-On AI Workshops Graphic" />
+              <div class="card-body">
+                <h3 class="card-title">⚡ Hands-On AI Workshops</h3>
+                <ul>
+                  <li>Learn to use AI tools (ChatGPT, automation software, AI analytics).</li>
+                  <li>Practical exercises to implement AI in daily tasks.</li>
+                  <li>Tailored to your company's needs.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100">
+              <!-- Program Graphic Placeholder -->
+              <img src="https://via.placeholder.com/600x300?text=Industry+Specific+Training+Graphic" class="card-img-top" alt="Industry Specific AI Training Graphic" />
+              <div class="card-body">
+                <h3 class="card-title">🔬 Industry-Specific AI Training</h3>
+                <ul>
+                  <li>Custom AI training for finance, healthcare, marketing, HR, and more.</li>
+                  <li>AI risk management and compliance considerations.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Why Choose AI Fluency Hub? -->
-    <section id="why-choose">
+    <!-- Why Choose AI Fluency Hub -->
+    <section id="why-choose" class="py-5" style="background-color: #89BBFE;">
       <div class="container">
-        <h2>Why Choose AI Fluency Hub?</h2>
-        <ul>
-          <li>✅ Led by AI Experts – Our trainers are seasoned AI researchers and consultants.</li>
-          <li>✅ Tailored for Business Needs – No jargon, just practical, actionable knowledge.</li>
-          <li>✅ Fast & Effective Learning – Designed for busy professionals with real-world examples.</li>
-          <li>✅ Flexible Delivery – Online, in-person, or hybrid training options.</li>
+        <h2 class="mb-4">Why Choose AI Fluency Hub?</h2>
+        <ul class="list-unstyled">
+          <li class="mb-2">✅ Led by AI Experts – Our trainers are seasoned AI researchers and consultants.</li>
+          <li class="mb-2">✅ Tailored for Business Needs – No jargon, just practical, actionable knowledge.</li>
+          <li class="mb-2">✅ Fast & Effective Learning – Designed for busy professionals with real-world examples.</li>
+          <li class="mb-2">✅ Flexible Delivery – Online, in-person, or hybrid training options.</li>
         </ul>
       </div>
     </section>
 
     <!-- Who Is This For? -->
-    <section id="who-for">
+    <section id="who-for" class="py-5">
       <div class="container">
-        <h2>Who Is This For?</h2>
-        <ul>
-          <li>✔ Business leaders and executives who want to make informed AI-driven decisions.</li>
-          <li>✔ HR and managers looking to upskill employees and integrate AI into workflows.</li>
-          <li>✔ Employees across all levels who need to understand AI’s impact on their jobs.</li>
-          <li>✔ Companies looking to future-proof their workforce and stay ahead of competitors.</li>
+        <h2 class="mb-4">Who Is This For?</h2>
+        <ul class="list-unstyled">
+          <li class="mb-2">✔ Business leaders and executives who want to make informed AI-driven decisions.</li>
+          <li class="mb-2">✔ HR and managers looking to upskill employees and integrate AI into workflows.</li>
+          <li class="mb-2">✔ Employees across all levels who need to understand AI’s impact on their jobs.</li>
+          <li class="mb-2">✔ Companies looking to future-proof their workforce and stay ahead of competitors.</li>
         </ul>
       </div>
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonials">
+    <section id="testimonials" class="py-5" style="background-color: #ACEDFF;">
       <div class="container">
-        <h2>What Our Clients Say</h2>
-        <div class="testimonial">
-          <p>💬 “AI Fluency Hub transformed our team’s understanding of AI. We went from uncertainty to confidently using AI in daily operations.” – [Client Name, Company]</p>
-        </div>
-        <div class="testimonial">
-          <p>💬 “This training helped us integrate AI tools with minimal resistance. Employees feel empowered instead of overwhelmed.” – [Client Name, Company]</p>
+        <h2 class="mb-4">What Our Clients Say</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p>💬 “AI Fluency Hub transformed our team’s understanding of AI. We went from uncertainty to confidently using AI in daily operations.”</p>
+              <footer class="blockquote-footer">[Client Name, Company]</footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p>💬 “This training helped us integrate AI tools with minimal resistance. Employees feel empowered instead of overwhelmed.”</p>
+              <footer class="blockquote-footer">[Client Name, Company]</footer>
+            </blockquote>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Call-to-Action (CTA) -->
-    <section id="cta">
+    <section id="cta" class="py-5 text-center">
       <div class="container">
         <h2>Get AI-Ready Today!</h2>
-        <p>Book a Free Consultation – Let’s discuss your company’s AI training needs.</p>
+        <p class="lead">Book a Free Consultation – Let’s discuss your company’s AI training needs.</p>
         <p>Schedule a Team Workshop – Empower your employees with AI skills now.</p>
         <p>📞 Call us at [Your Contact Number]</p>
         <p>📧 Email us at <a href="mailto:[Your Email Address]">[Your Email Address]</a></p>
         <p>🌍 Visit us at <a href="http://www.aifluencyhub.com">www.aifluencyhub.com</a></p>
-        <a class="cta-button" href="#contact">🟢 Book a Free Consultation</a>
+        <a class="btn btn-lg btn-success mt-3" href="#contact">🟢 Book a Free Consultation</a>
       </div>
     </section>
 
     <!-- Contact Form (Optional) -->
-    <section id="contact">
+    <section id="contact" class="py-5" style="background-color: #CAE5FF;">
       <div class="container">
-        <h2>Contact Us</h2>
-        <form action="https://formspree.io/f/yourFormID" method="POST">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
-          
-          <label for="email">Email</label>
-          <input type="email" id="email" name="_replyto" required>
-          
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-          
-          <button type="submit">Send Message</button>
+        <h2 class="mb-4 text-center">Contact Us</h2>
+        <form action="https://formspree.io/f/yourFormID" method="POST" class="mx-auto" style="max-width: 600px;">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="_replyto" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Send Message</button>
         </form>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
+  <footer class="py-4" style="background-color: #89BBFE;">
+    <div class="container text-center">
       <p>&copy; 2025 AI Fluency Hub. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- Bootstrap JS Bundle (with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
