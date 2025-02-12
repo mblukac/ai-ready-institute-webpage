@@ -1,0 +1,18 @@
+/* style.css */
+
+/* Base body styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  /* Optional: Customize link colors */
+  a {
+    color: #0066cc;
+  }
+  
+  a:hover {
+    color: #005a99;
+  }
+  
+  /* Additional custom styles can be added here as needed */
+  
